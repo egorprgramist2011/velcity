@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.wrapper-inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo a {
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #69B9FF;
+}
+
+.navigation a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #676770;
+    margin-right: 40px;
+}
+
+.header .wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.header {
+    padding-top: 11px;
+    padding-bottom: 24px;
+    background-color: #fff;
+}
+
+.banner h2 {
+    font-size: 59px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 107px;
+}
+
+.banner {
+    background-image: url(../img/banner.jpg);
+    padding-top: 184px;
+    padding-bottom: 199px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 12px 30px;
+}
+
+.btn-blue {
+    background: #69B9FF;
+    border-color: #69B9FF;
+    margin-right: 20px;
+}
+
+.info {
+    background-color: #FFFFFF;
+    padding-top: 77px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #8E8E9C;
+    margin-bottom: 62px;
+}
+
+.card-title {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #676770;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #6A859C;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #DCEBF7;
+    border-radius: 5px;
+    padding-top: 36px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 23px;
+    flex: 0 1 300px;
+}
+
+.title-services {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.services {
+    background: #192024;
+    padding-top: 70px;
+    padding-bottom: 114px;
+}
+
+.service-title {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.services-text {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+.service-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    text-align: center;
+}
+
+.tabs{
+    padding-bottom: 90px;
+    padding-top: 77px;
+}
+
+.tab-container label {
+    background: #92A0AD;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 1px 30px;
+    white-space: nowrap;
+    display: inline-block;
+}
+.tab-container input{
+     display: none;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 20px;  
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #676770;
+}
+.tab-content p{
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    color: #6A859C; 
+}
+.tab-title1{
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+    color: #676770; 
+}
+.tab-container{
+    text-align: center;
+}
+
+.tab-content{
+    display: none;
+    margin-top: 52px;
+}
+#tab1:checked~.tab-content1{
+    display: block;
+}
+#tab2:checked~.tab-content2{
+    display: block;
+}
+#tab3:checked~.tab-content3{
+    display: block;
+}
+#tab1:checked+label{
+    background-color: #2E80B6;
+}
+#tab2:checked+label{
+    background-color: #2E80B6;
+}
+#tab3:checked+label{
+    background-color: #2E80B6;
+}
+
+/* footer */
+.footer .wrapper-inner{
+    padding-bottom: 40px;
+}
+.messengers{
+    display: flex;
+}
+
+.messenger-cards p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #6A859C;
+}
+.messenger-cards a{
+    font-size: 14px;
+    line-height: 25px;
+    color: #6A859C;
+}
+.messenger-cards{
+    flex: 0 1 320px;
+    padding-right: 20px;
+}
+.messenger-cards li{
+    border-bottom: #D5D5E0 1px solid;
+    
+}
+
+.copyright{
+    background-color: #383838;
+    padding: 40px 0px 41px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center; 
+    color: #9E9E9E; 
+}
+.social img{
+    margin-right: 11px;
+    vertical-align: middle;
+}
+h3::before{
+    content: "";
+    display: inline-block;
+   width: 25px;
+   height: 25px;
+   border-color: yellow;
+    border: yellow 5px solid;
+}
+h3::after{
+    content: "4";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: yellow 5px solid;
+    color: #fff;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media(max-width:768px){
+    .card-container {
+        display: block;
+        
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .service-cards{
+        display: block;
+    }
+    .box{
+        margin-bottom: 20px;
+    }
+    .navigation li:last-child a{
+        margin-right: 0px;
+    }
+    .navigation a{
+        margin-right: 20px;
+    }
+    
+    .messengers{
+        display: block;
+    }
+    .messenger-cards{
+        margin-bottom: 15px;
+    }
+    .tab-container label{
+        margin-bottom: 15px;
+    }     
+}
+
+@media (max-width:650px){
+    .banner h2{
+        font-size: 50px;
+    }
+    .btn-blue{
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+}
